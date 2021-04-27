@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzerías de Buenos Aires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div>
+            <img class="bannerpizzeria" src="img/bannerProyectoPizzeria01.jpg" alt="bannerpizzeria">
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="pizzeriasnotables.html">Pizzerías Notables</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registrá tu Pizzería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="fondosite">
+
+            <div class="formulariocontacto">
+
+                <div class="textoformulario">
+                    <p>Completa el siguiente formulario y agregamos tu pizzería</p>
+                </div>
+
+                <form action="https://ptsv2.com/t/um015-1619037201/post" method="post">
+                    <div class="contenedorformulario">
+
+                        <div>
+                            <label for="nombreusuario" class="bold">Nombre de usuario</label>
+                            <input type="text" name="nombreusuarioregistro" required>
+                        </div>
+
+                        <div>
+                            <label for="contraseña" class="bold">Contraseña</label>
+                            <input type="password" name="passregistro" required>
+                        </div>
+
+                        <div>
+                            <label for="repitacontraseña" class="bold">Repita contraseña</label>
+                            <input type="password" name="repassregistro" required>
+                        </div>
+
+                        <div>
+                            <label for="email" class="bold">Email</label>
+                            <input type="email" name="emailregistro" required>
+                        </div>
+
+                        <div>
+                            <label for="telefono" class="bold">Teléfono</label>
+                            <input type="tel" name="telefonoregistro" required>
+                        </div>
+
+                        <div>
+                            <label for="direccion" class="bold">Dirección</label>
+                            <input type="text" name="direccionregistro" required>
+                        </div>
+
+                        <div>
+                            <label for="fechainicioactividades" class="bold">Inicio de actividades</label>
+                            <input type="date" name="fechainicioactividadregistro" required>
+                        </div>
+
+                        <div>
+                            <label for="fotos" class="bold">Envíe sus fotos</label>
+                            <input type="file" name="fotoregistro" id="file" required>
+                        </div>
+
+                        <div>
+                            <p class="bold">¿Contanos por que deberías estar en nuestra página?</p>
+                            <textarea name="mensajeregistro" cols="30" rows="10" required></textarea>
+                        </div>
+
+                        <div>
+                            <p class="bold">¿En qué partido/barrio te encuentras?</p>
+                            <select name="partidoregistro" required>
+                        <option value="Avellaneda">Avellaneda</option>
+                        <option value="Banfield">Banfield</option>
+                        <option value="Constitución">Constitución</option>
+                        <option value="La Boca">La Boca</option>
+                        <option value="Lanus">Lanús</option>
+                        <option value="Núñez">Núñez</option>
+                        <option value="Once">Once</option>
+                        <option value="Palermo">Palermo</option>
+                        <option value="Puerto Madero">Puerto Madero</option>
+                        <option value="Quilmes">Quilmes</option>      
+                        <option value="Recoleta">Recoleta</option>
+                        <option value="Retiro">Retiro</option>
+                        <option value="San Nicolás">San Nicolás</option>
+                        <option value="San Telmo">San Telmo</option>
+                        <option value="Villa Mitre">Villa Mitre</option>
+                        </select>
+                        </div>
+
+                        <div>
+                            <p class="bold">
+                                ¿Desea suscribirse a novedades de nuevas pizzerías agregadas?
+                                <div>
+                                    <input type="checkbox" name="novedadesregistro" required>
+                                </div>
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="bold">¿Cómo calificas nuestro sitio?
+                                <input type="range" name="calificacionregistro" required>
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="bold">
+                                ¿Cantidad de sucursales?
+                                <input type="number" name="cantidadsucursalesregistro" required>
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="bold">
+                                <button class="botonregistro" type="reset">Borrar datos</button>
+                                <button class="botonregistro" name="enviarregistro">Enviar</button>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <div class="footer">
+        <p class="textofooter">Desarrollado por Alberto López</p>
+    </div>
+
+</body>
+
+</html>

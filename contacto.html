@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzerías de Buenos Aires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img class="bannerpizzeria" src="img/bannerProyectoPizzeria01.jpg" alt="bannerpizzeria">
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="pizzeriasnotables.html">Pizzerías Notables</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registrá tu Pizzería</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="fondosite">
+
+            <div class="formulariocontacto">
+
+                <div class="textoformulario">
+                    <p>Contactanos y nos comunicamos a la brevedad</p>
+                </div>
+
+                <form action="https://ptsv2.com/t/guayerdDemo/post" method="POST">
+
+                    <div class="contenedorformulario">
+
+                        <div>
+                            <label for="nombre" class="bold">Nombre</label>
+                            <input type="text" name="nombre">
+                        </div>
+
+                        <div>
+                            <label for="email" class="bold">Email</label>
+                            <input type="email" name="email">
+                        </div>
+
+                        <div>
+                            <label for="mensaje" class="bold">Mensaje</label>
+                            <textarea name="mensaje" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div>
+                            <button name="enviar" class="boton">Enviar</button>
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="footer">
+        <p class="textofooter">Desarrollado por Alberto López</p>
+    </div>
+
+</body>
+
+</html>

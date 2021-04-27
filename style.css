@@ -1,0 +1,335 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/** Pagina principal **/
+
+.contenedorprincipal {
+    background-color: #C7C8C4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #A6341B;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
+
+img,
+.bannerpizzeria {
+    width: 100%;
+    max-width: 1500px;
+    height: 300px;
+}
+
+.menu {
+    background-color: #60371E;
+    margin-top: -5px;
+    padding: 10px;
+    height: 30px;
+}
+
+ul,
+li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #D1BF91;
+    /**margin-left: 220px;**/
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+a:hover {
+    color: orange;
+}
+
+body,
+.fondosite {
+    background-color: #D1BF91;
+}
+
+.contenidoprincipal {
+    text-align: justify;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+    line-height: 30px;
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.contenedoraside {
+    border-style: solid;
+    border-width: 1pt;
+    border-color: black;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 280px;
+    margin-top: 10px;
+    border-radius: 90px;
+}
+
+.contenedoraside img {
+    width: 100px;
+    height: 80px;
+    padding-left: 80px;
+}
+
+.contenedoraside p {
+    line-height: 20px;
+    font-weight: 10px;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+}
+
+.contenedoraside .tituloaside {
+    font-size: 15px;
+    color: black;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: #60371E;
+    text-align: center;
+    border-style: solid;
+    border-color: #A6341B;
+    border-radius: 15px;
+    background-color: #F9C743;
+    width: 50%;
+}
+
+.parrafoaside {
+    font-size: 15px;
+    color: black;
+}
+
+.contenedoraside .parrafoasidechico {
+    font-size: 11px;
+    padding-top: 20px;
+    color: black;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-right: 20px;
+    color: #60371E;
+    text-align: center;
+    border-style: solid;
+    border-color: #A6341B;
+    border-radius: 15px;
+    background-color: #F9C743;
+    padding: 15px;
+    width: 55%;
+}
+
+h2 {
+    margin-top: 10px;
+    color: #A6341B;
+    text-align: center;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #A6341B;
+    border-radius: 15px;
+    background-color: #F9C743;
+    width: 360px;
+    margin-left: 270px;
+    padding: 5px;
+}
+
+p {
+    /**margin-top: 35px;**/
+    text-align: center;
+}
+
+
+/** Pizzeria Notables **/
+
+.contenedorpizzeria {
+    background-color: #C7C8C4;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    border-color: #A6341B;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    height: 1850px;
+}
+
+.contenedoraviso {
+    background-color: #C7C8C4;
+    margin-bottom: 80px;
+    padding-top: 20px;
+}
+
+.titulopizzeria {
+    font-size: 30px;
+    background-color: #F9C743;
+    text-align: center;
+    border-style: solid;
+    border-color: #A6341B;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    color: #60371E;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.imgpizzeria img {
+    width: 250px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 50px;
+}
+
+.infopizzerianotables {
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 100px;
+    padding-left: 280px;
+    padding-right: 20px;
+}
+
+.dire {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/** Contacto **/
+
+.formulariocontacto {
+    background-color: #C7C8C4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #A6341B;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
+
+.boton {
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 25px;
+    margin-left: 325px;
+    font-weight: bold;
+}
+
+
+/** Footer **/
+
+.footer {
+    background-color: #F9C743;
+    opacity: 40%;
+    padding-bottom: 10px;
+}
+
+.textofooter {
+    font-weight: bold;
+    font-size: 15px;
+    width: 350px;
+    margin-left: 500px;
+    padding-top: 10px;
+}
+
+
+/** Formulario Registro**/
+
+.textoformulario {
+    margin-top: 30px;
+    margin-left: 300px;
+    color: #60371E;
+    text-align: center;
+    border-style: solid;
+    border-color: #A6341B;
+    background-color: #F9C743;
+    font-size: 25px;
+    width: 55%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contenedorformulario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 370px;
+    margin-right: 370px;
+    border-radius: 15px;
+}
+
+label {
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+input {
+    width: 270px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 270px;
+}
+
+select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 120px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.botonregistro {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.botonregistro:hover,
+.boton:hover {
+    cursor: pointer;
+    background-color: #F9C743;
+    transition-duration: 1s;
+}
